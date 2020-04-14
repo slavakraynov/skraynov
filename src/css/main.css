@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 5em;
+}
+
+.subtitle {
+  color: #666666;
+  font-size: 1.6em;
+}
+
+.title, .subtitle {
+  text-align: center;
+}
+.title a, .subtitle a {
+  color: #666666;
+  text-decoration: none;
+}
+.title a u, .subtitle a u {
+  text-decoration: none;
+}
+
+a.link-tj:visited u {
+  border-bottom: 1px solid #E8A427;
+}
+a.link-tj:hover {
+  color: #E8A427;
+}
+a.link-tj u {
+  border-bottom: 1px solid #E8A427;
+}
+a.link-vc:visited u {
+  border-bottom: 1px solid #E25A76;
+}
+a.link-vc:hover {
+  color: #E25A76;
+}
+a.link-vc u {
+  border-bottom: 1px solid #E25A76;
+}
+a.link-dtf:visited u {
+  border-bottom: 1px solid #5bbad5;
+}
+a.link-dtf:hover {
+  color: #5bbad5;
+}
+a.link-dtf u {
+  border-bottom: 1px solid #5bbad5;
+}
+
+/*# sourceMappingURL=main.css.map */
