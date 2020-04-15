@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 3em !important;
+  }
+
+  .subtitle {
+    font-size: 1em !important;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -41,6 +50,31 @@ html, body {
 }
 .title a u, .subtitle a u {
   text-decoration: none;
+}
+
+.contacts {
+  padding: 20px;
+}
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+.contacts ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.contacts ul li a {
+  color: #888888;
+  text-decoration: none;
+  border-bottom: 1px solid #4caf50;
+}
+.contacts ul li a:visited u {
+  border-bottom: 1px solid #4caf50;
+}
+.contacts ul li a:hover {
+  color: #4caf50;
 }
 
 a.link-tj:visited u {
