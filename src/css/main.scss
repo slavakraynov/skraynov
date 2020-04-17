@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
   .title {
     font-size: 3em !important;
   }
@@ -22,7 +22,6 @@ html, body {
 
 .flex-container {
   height: 100%;
-  padding: 0;
   margin: 0;
   display: -webkit-box;
   display: -moz-box;
