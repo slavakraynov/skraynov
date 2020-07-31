@@ -104,5 +104,14 @@ a.link-dtf:hover {
 a.link-dtf u {
   border-bottom: 1px solid #5bbad5;
 }
+a.link-coub:visited u {
+  border-bottom: 1px solid #0332FF;
+}
+a.link-coub:hover {
+  color: #0332FF;
+}
+a.link-coub u {
+  border-bottom: 1px solid #0332FF;
+}
 
 /*# sourceMappingURL=main.css.map */
