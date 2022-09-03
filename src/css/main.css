@@ -4,7 +4,6 @@
   .title {
     font-size: 3em !important;
   }
-
   .subtitle {
     font-size: 1em !important;
   }
@@ -52,7 +51,7 @@ html, body {
 }
 
 .contacts {
-  padding: 20px;
+  padding: 15px;
 }
 .contacts ul {
   padding: 0;
@@ -60,10 +59,24 @@ html, body {
   justify-content: center;
   text-decoration: none;
   list-style: none;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 .contacts ul li {
+  padding-top: 5px;
   padding-left: 5px;
   padding-right: 5px;
+}
+.contacts ul li.contact-important a {
+  font-size: 1.3em !important;
+  color: #E25A76;
+  border-bottom: 1px solid #E25A76;
+}
+.contacts ul li.contact-important a:visited u {
+  border-bottom: 1px solid #E25A76;
+}
+.contacts ul li.contact-important a:hover {
+  color: #E83156;
 }
 .contacts ul li a {
   color: #888888;

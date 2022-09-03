@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .title {
     font-size: 3em !important;
   }
@@ -55,7 +55,7 @@ html, body {
 }
 
 .contacts {
-  padding:20px;
+  padding: 15px;
 
   ul {
     padding: 0;
@@ -63,9 +63,32 @@ html, body {
     justify-content: center;
     text-decoration: none;
     list-style: none;
+    flex-wrap: wrap;
+    align-items: baseline;
+
     li {
+      padding-top: 5px;
       padding-left: 5px;
       padding-right: 5px;
+
+      &.contact-important {
+        a {
+          font-size: 1.3em !important;
+          color: #E25A76;
+          border-bottom: 1px solid #E25A76;
+
+          &:visited {
+            u {
+              border-bottom: 1px solid #E25A76;
+            }
+          }
+
+          &:hover {
+            color: #E83156;
+          }
+        }
+      }
+
       a {
         color: #888888;
         text-decoration: none;
@@ -101,6 +124,7 @@ a.link {
       border-bottom: 1px solid #E8A427;
     }
   }
+
   &-vc {
     &:visited {
       u {
@@ -116,6 +140,7 @@ a.link {
       border-bottom: 1px solid #E25A76;
     }
   }
+
   &-dtf {
     &:visited {
       u {
@@ -131,6 +156,7 @@ a.link {
       border-bottom: 1px solid #5bbad5;
     }
   }
+
   &-coub {
     &:visited {
       u {
