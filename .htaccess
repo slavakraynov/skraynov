@@ -1,0 +1,2 @@
+RewriteEngine On
+Redirect 301 /cv https://career.habr.com/kraynov-vyacheslav/print.pdf
