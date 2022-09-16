@@ -7,6 +7,9 @@
   }
   .subtitle {
     font-size: 1em !important;
+    &-small {
+      font-size: 0.8em !important;
+    }
   }
 }
 
@@ -39,6 +42,13 @@ html, body {
 .subtitle {
   color: #666666;
   font-size: 1.6em;
+
+  &-small {
+    @extend .subtitle;
+    font-size: 1em;
+    opacity: 0.7;
+    padding-top: 15px;
+  }
 }
 
 .title, .subtitle {
@@ -138,6 +148,22 @@ a.link {
 
     u {
       border-bottom: 1px solid #E25A76;
+    }
+  }
+
+  &-sovcombank {
+    &:visited {
+      u {
+        border-bottom: 1px solid #00091F;
+      }
+    }
+
+    &:hover {
+      color: #00091F;
+    }
+
+    u {
+      border-bottom: 1px solid #00091F;
     }
   }
 
